@@ -15,3 +15,5 @@ Movie.create(
   title: 'Deadly Weapon 2 — This time time it’s personal',
   description: 'Like Deadly Weapon, only deadlier and more personal'
 )
+
+Movie.second.reviews.create(content: 'Fucked up')
